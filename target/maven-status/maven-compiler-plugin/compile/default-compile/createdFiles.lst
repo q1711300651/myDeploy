@@ -1,7 +1,0 @@
-com/ww/MyDeployApplication.class
-com/ww/controller/BatchFileUploadController.class
-com/ww/controller/HelloController.class
-com/ww/ServletInitializer.class
-com/ww/CorsConfig.class
-com/ww/Swagger2.class
-com/ww/controller/FileUploadController.class
