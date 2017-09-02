@@ -13,4 +13,3 @@ cp *.jar descPath
 #部署
 echo '开始部署'
 java -jar myDeploy*.jar
-
