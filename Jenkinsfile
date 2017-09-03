@@ -1,24 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('git clone') {
       steps {
-        parallel(
-          "stage1": {
-            sh 'echo \'1\''
-            sh 'echo \'3\''
-            
-          },
-          "stage5": {
-            sh 'echo \'5\''
-            
-          }
-        )
+        sh 'git \'https://github.com/q1711300651/myDeploy.git/\''
       }
     }
-    stage('stage2') {
+    stage('man clean') {
       steps {
-        sh 'echo \'2\''
+        sh '''sh "mvn clean"
+sh "infer -- mvn compile"'''
       }
     }
   }
