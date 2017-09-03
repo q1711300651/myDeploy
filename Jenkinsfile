@@ -1,12 +1,13 @@
 pipeline {
   agent any
   stages {
-    stage('start') {
+    stage('git clone') {
       steps {
         echo 'start'
+        sh 'man clean'
       }
     }
-    stage('end') {
+    stage('print end') {
       steps {
         echo 'end'
       }
