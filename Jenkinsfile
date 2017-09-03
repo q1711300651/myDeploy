@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git clone') {
       steps {
-        sh 'git \'https://github.com/q1711300651/myDeploy.git/\''
+        sh 'git clone \'https://github.com/q1711300651/myDeploy.git/\''
       }
     }
     stage('man clean') {
