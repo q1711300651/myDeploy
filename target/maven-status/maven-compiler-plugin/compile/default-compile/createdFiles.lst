@@ -1,0 +1,11 @@
+com/ww/MyDeployApplication.class
+com/ww/properties/MyProfile.class
+META-INF/spring-configuration-metadata.json
+com/ww/controller/BatchFileUploadController.class
+com/ww/controller/HelloController.class
+com/ww/ServletInitializer.class
+com/ww/CorsConfig.class
+com/ww/properties/HomeProperties.class
+com/ww/MyDeployApplication$1.class
+com/ww/Swagger2.class
+com/ww/controller/FileUploadController.class
