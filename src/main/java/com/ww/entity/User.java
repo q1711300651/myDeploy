@@ -8,10 +8,10 @@ import java.io.Serializable;
 /**
  * Created by ww on 17/8/24.
  */
-@Entity
+//@Entity
 public class User implements Serializable {
-    @Id
-    @GeneratedValue
+//    @Id
+//    @GeneratedValue
     private String id;
     private String name;
 
