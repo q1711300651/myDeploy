@@ -8,7 +8,10 @@ pipeline {
     }
     stage('first test shell') {
       steps {
-        sh 'echo "first test shell"'
+        sh '''echo "first test shell";
+ls;
+pwd;
+cd {WORKSPACE};'''
       }
     }
     stage('second test') {
