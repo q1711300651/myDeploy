@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+
+
 #备份
 #声明备份目录
 descPath=${JENKINS_HOME}/bak
