@@ -9,9 +9,8 @@ pipeline {
     stage('first test shell') {
       steps {
         sh '''echo "first test shell";
-ls;
-pwd;
-cd {WORKSPACE};'''
+mvn clean package;
+java -jar target/*.jar'''
       }
     }
     stage('second test') {
